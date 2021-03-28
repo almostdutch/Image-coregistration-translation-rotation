@@ -34,7 +34,7 @@ image comparison metric = mutual information
 </p>
 
 ### monte_carlo_rotation_coreg.py<br/>
-The script performs Monte Carlo simulations (Ntrials = 2000, -10 pixels <= shift <= 10 degrees) comparing sub-degree coregistration (rotation) accuracy of 3 methods:
+The script performs Monte Carlo simulations (Ntrials = 2000, -10 degrees <= rotation <= 10 degrees) comparing sub-degree coregistration (rotation) accuracy of 3 methods:
     
 (1) Phase correlation (degree level) in Polar coordinate system with differential evolution (sub-degree level),<br/>
 image comparison metric = mean squared error<br/>
@@ -55,6 +55,6 @@ Demo showing how to coregister two 2D images
 </p>
     
 Expected rotation angle: 7.96<br/>
-Determined rotation angle: 7.9863800832673615<br/>
+Determined rotation angle: 7.99<br/>
 Expected translation Row: -0.42 Col: -9.64<br/>
-Determined translation Row: -0.4357482894087572 Col: -9.65762680684138<br/>
+Determined translation Row: -0.44 Col: -9.66<br/>
