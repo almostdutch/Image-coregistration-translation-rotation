@@ -3,7 +3,14 @@ translation_coreg_phase_corr.py
 
 Script for performing corregestration (translation) of two 2D images by using phase correlation
 
-Mutual information with differential evolution (sub-pixel level), image comparison metric = mutual information
+PhaseCorrDiamondSearchTranslation \
+    Phase correlation (pixel level) with diamond search (sub-pixel level), image comparison metric = mean squared error
+
+PhaseCorrFullSearchTranslation \
+    Phase correlation (pixel level) with full search (sub-pixel level), image comparison metric = mean squared error
+
+PhaseCorrDiffEvolutionTranslation \
+    Phase correlation (pixel level) with differential evolution (sub-pixel level), image comparison metric = mean squared error
 '''
 
 import numpy as np

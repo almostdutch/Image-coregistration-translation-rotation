@@ -4,7 +4,8 @@ rotation_coreg_phase_corr.py
 Script for performing corregistration (rotation) of two 2D images by using phase correlation \
     in polar coordinate system
 
-- Phase correlation (degree level) in Polar coordinate system with differential evolution (sub-degree level), \
+PhaseCorrDiffEvolutionRotationPolar \
+    Phase correlation (degree level) in Polar coordinate system with differential evolution (sub-degree level), \
     image comparison metric = mean squared error
 '''
 

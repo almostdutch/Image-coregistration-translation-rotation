@@ -4,7 +4,8 @@ rotation_coreg_mutual_info.py
 Script for performing corregestration (rotation) of two 2D images by using mutual information \
     in cartesian coordinate system
 
-- Mutual information in Cartesian coordinate system with differential evolution (sub-degree level), \
+MutualInfoDiffEvolutionRotationCartesian \
+    Mutual information in Cartesian coordinate system with differential evolution (sub-degree level), \
     image comparison metric = mutual information
 '''
 

@@ -3,9 +3,8 @@ translation_coreg_mutual_info.py
 
 Script for performing corregestration (translation) of two 2D images by using mutual information
 
-- Cross correlation (pixel level) with diamond search (sub-pixel level), image comparison metric = mean squared error
-- Cross correlation (pixel level) with full search (sub-pixel level), image comparison metric = mean squared error
-- Cross correlation (pixel level) with differential evolution (sub-pixel level), image comparison metric = mean squared error
+MutualInfoDiffEvolutionTranslation \
+    Mutual information with differential evolution (sub-pixel level), image comparison metric = mutual information
 '''
 
 import numpy as np

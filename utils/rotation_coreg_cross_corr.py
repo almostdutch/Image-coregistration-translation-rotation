@@ -4,7 +4,8 @@ rotation_coreg_cross_corr.py
 Script for performing corregestration (rotation) of two 2D images by using cross correlation \
     in polar coordinate system
 
-- Cross correlation (degree level) in Polar coordinate system with differential evolution (sub-degree level), \
+CrossCorrDiffEvolutionRotationPolar \
+    Cross correlation (degree level) in Polar coordinate system with differential evolution (sub-degree level), \
     image comparison metric = mean squared error
 '''
 
