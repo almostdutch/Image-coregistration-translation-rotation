@@ -15,7 +15,7 @@ CrossCorrDiffEvolutionTranslation \
 
 import numpy as np
 import scipy as scipy
-from coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, _MseMetric, \
+from utils.coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, _MseMetric, \
     _NeighborhoodDiamondSearch, _NeighborhoodFullSearch, _DiffEvolutionTranslation
 
 def _CrossCorr(image_ref, image_shifted):

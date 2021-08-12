@@ -14,7 +14,7 @@ PhaseCorrDiffEvolutionTranslation \
 '''
 
 import numpy as np
-from coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, _MseMetric, \
+from utils.coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, _MseMetric, \
     _ApplyHannWindow, _NeighborhoodDiamondSearch, _NeighborhoodFullSearch, _DiffEvolutionTranslation
 
 def _PhaseCorr(image_ref, image_shifted):

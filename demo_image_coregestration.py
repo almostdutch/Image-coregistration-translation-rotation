@@ -7,9 +7,9 @@ Coregister two 2D (single channel) same size images differing by translation and
 import numpy as np
 import matplotlib.image as mpimg 
 import matplotlib.pyplot as plt 
-from coreg_utils import ImageTranslate, ImageRotate
-from translation_coreg_mutual_info import MutualInfoDiffEvolutionTranslation
-from rotation_coreg_mutual_info import MutualInfoDiffEvolutionRotationCartesian
+from utils.coreg_utils import ImageTranslate, ImageRotate
+from utils.translation_coreg_mutual_info import MutualInfoDiffEvolutionTranslation
+from utils.rotation_coreg_mutual_info import MutualInfoDiffEvolutionRotationCartesian
 import random
 
 # range for taking a random shift (pixels) and rotation angle (degrees)
