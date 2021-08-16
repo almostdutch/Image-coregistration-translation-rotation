@@ -10,7 +10,7 @@ MutualInfoDiffEvolutionRotationCartesian \
 '''
 
 import numpy as np
-from coreg_utils import ImageRotate, _NormalizeImage, _ApplyHannWindow, _ApplyHighPassFilter, \
+from utils.coreg_utils import ImageRotate, _NormalizeImage, _ApplyHannWindow, _ApplyHighPassFilter, \
     _RemoveZeros, _DiffEvolutionRotation
     
 def _MutualInfoMetric(image_ref, image_rotated):

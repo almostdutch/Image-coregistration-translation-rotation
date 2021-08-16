@@ -8,7 +8,7 @@ MutualInfoDiffEvolutionTranslation \
 '''
 
 import numpy as np
-from coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, \
+from utils.coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, \
     _RemoveZeros, _DiffEvolutionTranslation
     
 def _MutualInfoMetric(image_ref, image_shifted):

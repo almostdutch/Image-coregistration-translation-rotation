@@ -11,7 +11,7 @@ CrossCorrDiffEvolutionRotationPolar \
 
 import numpy as np
 import scipy as scipy
-from coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, _ApplyHannWindow, \
+from utils.coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, _ApplyHannWindow, \
     _MseMetric, _CartesianToPolar, _DiffEvolutionRotation
 
 def _CrossCorr(image_ref, image_shifted):

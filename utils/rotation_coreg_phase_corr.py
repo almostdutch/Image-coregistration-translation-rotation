@@ -10,7 +10,7 @@ PhaseCorrDiffEvolutionRotationPolar \
 '''
 
 import numpy as np
-from coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, _ApplyHannWindow, \
+from utils.coreg_utils import ImageTranslate, _NormalizeImage, _ApplyHighPassFilter, _ApplyHannWindow, \
     _MseMetric, _CartesianToPolar, _DiffEvolutionRotation
 
 def _PhaseCorr(image_ref, image_shifted):
